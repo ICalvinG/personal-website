@@ -1,13 +1,13 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-const Icon = ({ type, size }) => (
-  <i class=`fas fa-{type} fa-{size}`></i>
+const Icon = ({ brand, type }) => (
+  <i className={`fa${brand ? 'b' : 's'} fa-${type} fa-3x`}></i>
 );
 
-ChatPlaceholder.propTypes = {
-  type: PropTypes.string.isRequired,
-  size: PropTypes.string.isRequired,
+Icon.propTypes = {
+  brand:  PropTypes.string,
+  type:   PropTypes.string.isRequired,
 };
 
 export default Icon;

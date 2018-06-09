@@ -6,12 +6,16 @@
   display: grid;
   grid-template-rows: 1fr 1fr;
   grid-gap: 1em;
+
   font-size: 65px;
 }
 
-/* p */.header__description {
+.header__description {
+  display: grid;
+  grid-row: auto;
   align-self: start;
   justify-self: center;
+
   width: 80%;
   font-size: 25px;
 }

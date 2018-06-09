@@ -1,0 +1,13 @@
+/*------------------------------------*\
+    Navigation
+\*------------------------------------*/
+
+/* nav */.navigation__wrapper {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-gap: 1em;
+  justify-self: center;
+
+  font-size: 15px;
+  width: 80%;
+}

@@ -2,11 +2,11 @@ import React from 'react';
 
 const Navigation = () => (
   <nav className='navigation__wrapper'>
-    <a href="#">Home</a>
-    <a href="#">About</a>
-    <a href="#">Resume</a>
-    <a href="#">Skills</a>
-    <a href="#">Projects</a>
+    <span>Home</span>
+    <span>About</span>
+    <span>Resume</span>
+    <span>Skills</span>
+    <span>Projects</span>
   </nav>
 );
 

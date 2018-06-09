@@ -13,9 +13,16 @@
 .header__description {
   display: grid;
   grid-row: auto;
+  grid-gap: .1em;
   align-self: start;
   justify-self: center;
 
   width: 80%;
   font-size: 25px;
+}
+
+@media screen and (max-width: 850px) {
+  .header__description {
+    justify-self: stretch;
+  }
 }

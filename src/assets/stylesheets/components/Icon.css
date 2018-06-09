@@ -6,3 +6,10 @@
   text-decoration: none;
   color: inherit;
 }
+
+
+@media screen and (max-width: 850px) {
+  .icon__link {
+    margin: 0px 15px;
+  }
+}

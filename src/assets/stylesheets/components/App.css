@@ -27,3 +27,18 @@ footer {
   align-self: start;
   justify-self: center;
 }
+
+@media screen and (max-width: 850px) {
+  footer {
+    width: 75%;
+  }
+}
+
+@media screen and (max-width: 720px) {
+  #app__wrapper {
+    grid-template-areas:
+      "header header"
+      "footer footer"
+      "main main";
+  }
+}

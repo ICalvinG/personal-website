@@ -9,7 +9,7 @@
   font-size: 65px;
 }
 
-.header__description {
+/* p */.header__description {
   align-self: start;
   justify-self: center;
   width: 80%;

@@ -1,9 +1,8 @@
 import React from 'react';
 
 const Main = () => (
-  <section>
-    <span>Main</span>
-  </section>
+  <main>
+  </main>
 );
 
 export default Main;

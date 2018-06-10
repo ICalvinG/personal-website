@@ -12,8 +12,19 @@
   width: 80%;
 }
 
+/* nav */.navigation__wrapper a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* nav */.navigation__wrapper a:hover {
+  color: #008080
+}
+
 @media screen and (max-width: 850px) {
   .navigation__wrapper {
     justify-self: stretch;
+
+    width: 100%;
   }
 }

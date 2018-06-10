@@ -1,8 +1,9 @@
 import React from 'react';
 
 const Main = () => (
-  <main>
-  </main>
+  <section>
+    Hello
+  </section>
 );
 
 export default Main;

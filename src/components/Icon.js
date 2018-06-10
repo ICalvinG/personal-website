@@ -18,7 +18,7 @@ const Icon = ({
 Icon.propTypes = {
   brand:  PropTypes.string,
   type:   PropTypes.string.isRequired,
-  type:   PropTypes.string.isRequired,
+  link:   PropTypes.string.isRequired,
 };
 
 export default Icon;

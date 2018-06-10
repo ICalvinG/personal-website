@@ -14,7 +14,7 @@
   display: grid;
   grid-row: auto;
   grid-gap: .1em;
-  align-self: start;
+  align-self: center;
   justify-self: center;
 
   width: 80%;
@@ -24,5 +24,7 @@
 @media screen and (max-width: 850px) {
   .header__description {
     justify-self: stretch;
+
+    width: 100%;
   }
 }

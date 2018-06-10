@@ -8,9 +8,9 @@
   grid-template-columns: 1fr 1fr;
   grid-template-rows: repeat(3, 1fr);
   grid-template-areas:
+    "header ."
     "header main"
-    "header main"
-    "footer main";
+    "footer .";
 }
 
 header {

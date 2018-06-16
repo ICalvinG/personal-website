@@ -1,0 +1,18 @@
+/*------------------------------------*\
+    Reference
+\*------------------------------------*/
+
+/* footer */.reference__wrapper {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-area: reference;
+  width: 50%;
+  align-self: start;
+  justify-self: center;
+}
+
+@media screen and (max-width: 850px) {
+  .reference__wrapper {
+    width: 75%;
+  }
+}

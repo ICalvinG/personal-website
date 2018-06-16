@@ -1,7 +1,7 @@
 import React from 'react';
 
 const About = () => (
-  <section>
+  <section className='about__section'>
     Lorem ipsum dolor sit amet, consectetur adipiscing elit.
     Vestibulum facilisis ut neque vulputate lobortis.
     Suspendisse in dapibus purus. Praesent molestie eget elit a

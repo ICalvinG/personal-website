@@ -1,4 +1,4 @@
-import React, { Fragment } from 'react';
+import React from 'react';
 import ReactDOM from 'react-dom';
 import { Router, Route, Switch } from 'react-router-dom';
 
@@ -9,10 +9,12 @@ import registerServiceWorker from './registerServiceWorker';
 import './assets/stylesheets/master.css';
 
 // Components
-import Footer from './components/Footer';
+import Reference from './components/Reference';
 import Header from './components/Header';
 import Main from './components/Main';
 import About from './components/About';
+import Resume from './components/Resume';
+import Footer from './components/Footer';
 
 // - Browser history
 import createBrowserHistory from 'history/createBrowserHistory';
@@ -31,7 +33,9 @@ document.addEventListener('DOMContentLoaded', () => {
         <Switch>
           <Route exact path="/" component={Main} />
           <Route path="/about" component={About} />
+          <Route path="/resume" component={Resume} />
         </Switch>
+        <Reference />
         <Footer />
       </div>
     </Router>,

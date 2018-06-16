@@ -7,6 +7,15 @@
   color: inherit;
 }
 
+/* a */.icon__link i:hover::before {
+  transform: scale(1.1);
+}
+
+/* a */.icon__link i:before {
+  display: inline-block;
+  transition: 1s all;
+}
+
 @media screen and (max-width: 850px) {
   .icon__link {
     margin: 0px 15px;

@@ -9,6 +9,6 @@
 
 @media screen and (max-width: 720px) {
   .about__section {
-    grid-row: 3;
+    grid-row: 5/6;
   }
 }

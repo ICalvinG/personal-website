@@ -35,10 +35,14 @@ footer {
 
 @media screen and (max-width: 720px) {
   #app__wrapper {
-    grid-template-rows: repeat(4, minmax(100px, auto));
+    grid-template-rows: repeat(8, minmax(100px, auto));
     grid-template-areas:
       "header header"
       "reference reference"
+      "main main"
+      "main main"
+      "main main"
+      "main main"
       "main main"
       "footer footer";
   }

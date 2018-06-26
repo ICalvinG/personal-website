@@ -1,14 +1,14 @@
-import React, { Fragment } from 'react';
+import React from 'react';
 import PropTypes from 'prop-types';
 
 // Components
 import SkillLevel from './SkillLevel.js';
 
 const SkillIcon = ({ type, level }) => (
-  <Fragment>
-    <i class={`devicon-${type}-plain`}></i>
+  <div className="skill__icon-container">
+    <i className={`devicon-${type}-plain skill__icon`}></i>
     <SkillLevel level={level} />
-  </Fragment>
+  </div>
 );
 
 SkillIcon.propTypes = {

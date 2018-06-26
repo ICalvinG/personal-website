@@ -7,3 +7,5 @@
 @import url(components/Main.css);
 @import url(components/About.css);
 @import url(components/Resume.css);
+@import url(components/Skills/SkillIcon.css);
+@import url(components/Skills/SkillLevel.css);

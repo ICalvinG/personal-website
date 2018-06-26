@@ -1,0 +1,16 @@
+/*------------------------------------*\
+    Skill Icon
+\*------------------------------------*/
+
+.skill__icon-container {
+  display: grid;
+  grid-gap: 1em;
+  grid-template-areas:
+    "icon"
+    "level";
+}
+
+/* i */.skill__icon {
+  grid-area: icon;
+  font-size: 5em;
+}

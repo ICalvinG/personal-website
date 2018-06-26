@@ -1,10 +1,10 @@
-import React, { Fragment } from 'react';
+import React from 'react';
 
 // Components
 import SkillIcon from './SkillIcon.js';
 
 const SkillList = () => (
-  <Fragment>
+  <div className="skill__list-container">
     <SkillIcon
       type={"ruby"}
       level={5}
@@ -17,7 +17,15 @@ const SkillList = () => (
       type={"javascript"}
       level={3}
     />
-  </Fragment>
+    <SkillIcon
+      type={"css3"}
+      level={5}
+    />
+    <SkillIcon
+      type={"html5"}
+      level={5}
+    />
+  </div>
 );
 
 export default SkillList;

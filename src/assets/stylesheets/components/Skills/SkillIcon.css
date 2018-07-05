@@ -16,3 +16,13 @@
   grid-area: icon;
   font-size: 5em;
 }
+
+@media screen and (max-width: 720px) {
+  .skill__icon-container {
+    height: 175px;
+  }
+
+  .skill__icon {
+    font-size: 25vw;
+  }
+}

@@ -1,0 +1,49 @@
+/*------------------------------------*\
+    App
+\*------------------------------------*/
+
+#app__wrapper {
+  display: grid;
+  grid-gap: 10px;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: repeat(8, minmax(100px, auto));
+  grid-auto-flow:dense;
+  grid-template-areas:
+    "header main"
+    "header main"
+    "header main"
+    "header main"
+    "header main"
+    "header main"
+    "reference main"
+    "footer footer";
+}
+
+header {
+  grid-area: header;
+}
+
+section {
+  grid-area: main;
+}
+
+footer {
+  grid-area: footer;
+  font-size: 12px;
+  align-self: center;
+}
+
+@media screen and (max-width: 720px) {
+  #app__wrapper {
+    grid-template-rows: repeat(8, minmax(100px, auto));
+    grid-template-areas:
+      "header header"
+      "reference reference"
+      "main main"
+      "main main"
+      "main main"
+      "main main"
+      "main main"
+      "footer footer";
+  }
+}

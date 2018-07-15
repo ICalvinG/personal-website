@@ -1,0 +1,16 @@
+/*------------------------------------*\
+    Index
+\*------------------------------------*/
+
+html { height: 100%; }
+
+body {
+  height: 100%;
+  margin: 0;
+  padding: 20px 30px 0px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: normal;
+  text-align: center;
+  background-color: #303030;
+  color: #FFF;
+}

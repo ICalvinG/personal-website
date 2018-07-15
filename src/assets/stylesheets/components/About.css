@@ -1,0 +1,27 @@
+/*------------------------------------*\
+    About
+\*------------------------------------*/
+
+.about__section--description {
+  grid-row: 3/7;
+  padding: 30px;
+}
+
+.about__section--description a {
+  text-decoration: none;
+  color: #9DF3C4;
+}
+
+/* img */.about__sticker {
+  grid-row: 1;
+}
+
+@media screen and (max-width: 720px) {
+  .about__section--description {
+    padding: 0px;
+  }
+
+  .about__sticker {
+    height: 150px;
+  }
+}

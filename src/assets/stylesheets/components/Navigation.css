@@ -1,0 +1,30 @@
+/*------------------------------------*\
+    Navigation
+\*------------------------------------*/
+
+/* nav */.navigation__wrapper {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-gap: 1em;
+  justify-self: center;
+
+  font-size: 15px;
+  width: 80%;
+}
+
+/* nav */.navigation__wrapper a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* nav */.navigation__wrapper a:hover {
+  color: #008080
+}
+
+@media screen and (max-width: 850px) {
+  .navigation__wrapper {
+    justify-self: stretch;
+
+    width: 100%;
+  }
+}

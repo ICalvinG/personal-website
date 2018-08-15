@@ -6,7 +6,9 @@
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-gap: 3em;
+  
   padding: 5px;
+  margin-top: 20px;
   max-height: 255px;
 }
 
@@ -15,6 +17,8 @@
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 1em;
+
     min-height: 920px;
+    margin-top: 0px;
   }
 }

@@ -21,10 +21,19 @@
   font-size: 25px;
 }
 
+/* i */.header__navigation-icon {
+  display: none;
+}
+
 @media screen and (max-width: 850px) {
   .header__description {
     justify-self: stretch;
 
     width: 100%;
+  }
+
+  /* i */.header__navigation-icon {
+    display: block;
+    float: left;
   }
 }

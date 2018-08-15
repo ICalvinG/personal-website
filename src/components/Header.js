@@ -5,6 +5,7 @@ import Navigation from './Navigation.js';
 
 const Header = () => (
   <header>
+    <i className="fa fa-bars header__navigation-icon" aria-hidden="true"></i>
     <div className='header__title'>
       <p>Calvin C. Ieong</p>
 

@@ -21,10 +21,34 @@
   font-size: 25px;
 }
 
+/* i */.header__navigation-icon {
+  display: none;
+}
+
 @media screen and (max-width: 850px) {
   .header__description {
     justify-self: stretch;
 
     width: 100%;
+  }
+
+  /* i */.header__navigation-icon {
+    display: block;
+    position: fixed;
+    left: 0;
+    width: calc(100% + 30px);
+    height: calc(.001% + 10px);
+    margin-left: -30px;
+    margin-top: -20px;
+    padding: 20px;
+    font-size: 20px;
+    background-color: #c0c0c0;
+  }
+
+  body .header__navigation-icon {
+    margin: -20px 0px 0px 0px;
+    opacity: 0.95;
+    text-align: left;
+    color: #FFF;
   }
 }

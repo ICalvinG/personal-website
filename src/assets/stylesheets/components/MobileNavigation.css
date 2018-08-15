@@ -1,0 +1,29 @@
+/*------------------------------------*\
+    Mobile Navigation
+\*------------------------------------*/
+
+/* nav */.mobile-navigation__wrapper {
+  display: none;
+}
+
+@media screen and (max-width: 850px) {
+  /* nav */.mobile-navigation__wrapper {
+    display: grid;
+    grid-template-rows: repeat(5, 1fr);
+    grid-gap: 1em;
+    justify-self: center;
+
+    position: fixed;
+    background-color: #FFF;
+    padding: 15px;
+    margin: 25px;
+    border-radius: 5%;
+    font-size: 15px;
+    width: 25%;
+  }
+
+  /* nav */.mobile-navigation__wrapper a {
+    text-decoration: none;
+    color: #000;
+  }
+}

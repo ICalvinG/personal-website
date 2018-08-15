@@ -35,5 +35,6 @@
   /* i */.header__navigation-icon {
     display: block;
     float: left;
+    position: fixed;
   }
 }

@@ -9,31 +9,26 @@ class Header extends Component {
     super();
 
     this.state = {
-      showMenu: false,
+      toggleMenu: false,
     };
 
-    this.showMenu = this.showMenu.bind(this);
-    this.closeMenu = this.closeMenu.bind(this);
+    this.toggleMenu = this.toggleMenu.bind(this);
   }
 
-  showMenu(event) {
+  toggleMenu(event) {
     event.preventDefault();
 
-    this.setState({ showMenu: true }, () => {
-      document.addEventListener('click', this.closeMenu);
+    this.setState({ toggleMenu: true }, () => {
+      document.addEventListener('click', this.toggleMenu);
     });
-  }
 
-  closeMenu(event) {
+    if (this.state.toggleMenu === true) {
 
-    if (!this.dropdownMenu.contains(event.target)) {
-
-      this.setState({ showMenu: false }, () => {
-        document.removeEventListener('click', this.closeMenu);
+      this.setState({ toggleMenu: false }, () => {
+        document.removeEventListener('click', this.toggleMenu);
       });
-
     }
-  }
+  };
 
   render() {
     return (
@@ -41,22 +36,16 @@ class Header extends Component {
         <i
           className="fa fa-bars header__navigation-icon"
           aria-hidden="true"
-          onClick={this.showMenu}
+          onClick={this.toggleMenu}
         ></i>
 
-        {
-          this.state.showMenu
-            ? (
-              <div ref={(element) => {
-                  this.dropdownMenu = element;
-                }}
-              >
-                <MobileNavigation />
-              </div>
-            )
-            : (
-              null
-            )
+        { this.state.toggleMenu &&
+          <div ref={(element) => {
+              this.dropdownMenu = element;
+            }}
+          >
+            <MobileNavigation />
+          </div>
         }
 
         <div className='header__title'>

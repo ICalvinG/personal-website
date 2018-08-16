@@ -12,7 +12,7 @@
   max-height: 255px;
 }
 
-@media screen and (max-width: 720px) {
+@media screen and (max-width: 920px) {
   .skill__list-container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);

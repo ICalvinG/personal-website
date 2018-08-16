@@ -39,6 +39,8 @@ class Header extends Component {
           onClick={this.toggleMenu}
         ></i>
 
+        <h3 className="header__navigation-initials">CCI</h3>
+
         { this.state.toggleMenu &&
           <div ref={(element) => {
               this.dropdownMenu = element;

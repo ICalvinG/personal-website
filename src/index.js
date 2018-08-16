@@ -15,6 +15,7 @@ import Main from './components/Main';
 import About from './components/About';
 import Resume from './components/Resume';
 import SkillList from './components/Skills/SkillList';
+import ProjectList from './components/Projects/ProjectList';
 import Footer from './components/Footer';
 
 // - Browser history
@@ -36,6 +37,7 @@ document.addEventListener('DOMContentLoaded', () => {
           <Route path="/about" component={About} />
           <Route path="/resume" component={Resume} />
           <Route path="/skills" component={SkillList} />
+          <Route path="/projects" component={ProjectList} />
         </Switch>
         <Reference />
         <Footer />

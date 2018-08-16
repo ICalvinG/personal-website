@@ -5,3 +5,9 @@
 .skill__level-container {
   grid-area: level;
 }
+
+@media screen and (max-width: 720px) {
+  .skill__level-container i {
+    font-size: .8em;
+  }
+}

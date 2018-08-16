@@ -1,7 +1,12 @@
 import React from 'react';
 
+// Components
+import SectionHeader from './SectionHeader.js';
+
 const About = () => (
   <section>
+    <SectionHeader title={"About Me"} />
+
     <img
       className='about__sticker'
       src='https://media.giphy.com/media/bGmzbqDKcmvyU/giphy.gif'

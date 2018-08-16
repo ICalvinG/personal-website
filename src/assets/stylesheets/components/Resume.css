@@ -6,3 +6,9 @@
   min-width: 100%;
   min-height: 100%;
 }
+
+@media screen and (max-width: 720px) {
+  /* object */.resume__object {
+    min-height: 580px;
+  }
+}

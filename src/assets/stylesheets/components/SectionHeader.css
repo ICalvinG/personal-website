@@ -1,0 +1,17 @@
+/*------------------------------------*\
+    Section Header
+\*------------------------------------*/
+
+/* h1 */.section-header__title {
+  display: none;
+}
+
+@media screen and (max-width: 720px) {
+  /* h1 */.section-header__title {
+    display: block;
+    font-weight: bold;
+    font-size: 30px;
+    padding: 30px;
+    background-color: #474747;
+  }
+}

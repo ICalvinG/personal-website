@@ -2,9 +2,7 @@
     Mobile Navigation
 \*------------------------------------*/
 
-/* nav */.mobile-navigation__wrapper {
-  display: none;
-}
+/* nav */.mobile-navigation__wrapper { display: none; }
 
 @media screen and (max-width: 850px) {
   /* nav */.mobile-navigation__wrapper {

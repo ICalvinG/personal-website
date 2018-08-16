@@ -21,9 +21,9 @@
   font-size: 25px;
 }
 
-/* i */.header__navigation-icon {
-  display: none;
-}
+/* i */.header__navigation-icon { display: none; }
+
+/* h3 */.header__navigation-initials { display: none; }
 
 @media screen and (max-width: 850px) {
   .header__description {
@@ -50,5 +50,13 @@
     opacity: 0.95;
     text-align: left;
     color: #FFF;
+  }
+
+  /* h3 */.header__navigation-initials {
+    display: block;
+    position: fixed;
+    top: 0;
+    right: 0;
+    margin-right: 20px;
   }
 }

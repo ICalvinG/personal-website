@@ -13,10 +13,15 @@
 }
 
 .project__container {
+  display: grid;
+  grid-gap: 1em;
+  grid-template-rows: repeat(auto-fit, minmax(auto, 1fr));
   padding: 20px;
 }
 
 .project__container img {
+  justify-self: center;
+
   max-width: 375px;
   max-height: 375px;
 }

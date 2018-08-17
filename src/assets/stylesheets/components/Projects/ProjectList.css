@@ -1,0 +1,34 @@
+/*------------------------------------*\
+    Project List
+\*------------------------------------*/
+
+.project__list-container {
+  display: grid;
+  grid-gap: 1em;
+  grid-template-rows: repeat(auto-fit, minmax(300px, auto));
+}
+
+.project__list-container div {
+  background-color: #474747;
+}
+
+.project__container {
+  display: grid;
+  grid-gap: 1em;
+  grid-template-rows: repeat(auto-fit, minmax(auto, 1fr));
+  padding: 20px;
+}
+
+.project__container img {
+  justify-self: center;
+
+  max-width: 375px;
+  max-height: 375px;
+}
+
+.project__container a {
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 24px;
+  color: #9DF3C4;
+}

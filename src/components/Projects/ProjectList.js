@@ -8,8 +8,10 @@ const ProjectList = () => (
     <SectionHeader title={"Projects"} />
 
     <div className="project__list-container">
-      <div className="project-container">
-        <h3>New Territories</h3>
+      <div className="project__container">
+        <a href="http://www.newterritoriesnyc.com/">
+          New Territories
+        </a>
 
         <p>
           A website built for a new dessert restaurant opening in the Lower
@@ -17,8 +19,10 @@ const ProjectList = () => (
           and Materialize.css in the front end.
         </p>
       </div>
-      <div className="project-container">
-        <h3>Giphies</h3>
+      <div className="project__container">
+        <a href="https://github.com/ICalvinG/giphies">
+          Giphies
+        </a>
 
         <p>
           Application build fully in React.js that utilizes the Giphy API.

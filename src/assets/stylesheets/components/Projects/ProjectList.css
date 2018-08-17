@@ -16,6 +16,11 @@
   padding: 20px;
 }
 
+.project__container img {
+  max-width: 375px;
+  max-height: 375px;
+}
+
 .project__container a {
   text-decoration: none;
   font-weight: bold;

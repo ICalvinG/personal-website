@@ -2,15 +2,31 @@ import React from 'react';
 
 // Components
 import SectionHeader from '../SectionHeader.js';
-import Project from '../Projects/Project.js';
 
 const ProjectList = () => (
   <section>
     <SectionHeader title={"Projects"} />
 
     <div className="project__list-container">
-      <Project />
-      <Project />
+      <div className="project-container">
+        <h3>New Territories</h3>
+
+        <p>
+          A website built for a new dessert restaurant opening in the Lower
+          East Side. This website utilizes Ruby on Rails for the back end
+          and Materialize.css in the front end.
+        </p>
+      </div>
+      <div className="project-container">
+        <h3>Giphies</h3>
+
+        <p>
+          Application build fully in React.js that utilizes the Giphy API.
+          The application takes user input and returns a random gif based on
+          the input. Users are then able to copy and paste the url of the
+          gif for their own personal use.
+        </p>
+      </div>
     </div>
   </section>
 );

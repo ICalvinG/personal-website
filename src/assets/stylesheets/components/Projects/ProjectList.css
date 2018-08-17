@@ -1,0 +1,10 @@
+/*------------------------------------*\
+    Project List
+\*------------------------------------*/
+
+.project__list-container {
+  display: grid;
+  grid-gap: 1em;
+  grid-template-rows: repeat(auto-fit, minmax(250px, 1fr));
+  background-color: #474747;
+}

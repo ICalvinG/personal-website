@@ -50,3 +50,11 @@
     max-height: 200px;
   }
 }
+
+@media screen and (min-height: 1200px) {
+  .project__container {
+    justify-self: center;
+    
+    width: 75%;
+  }
+}

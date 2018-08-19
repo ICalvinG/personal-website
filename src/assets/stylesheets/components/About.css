@@ -25,3 +25,9 @@
     height: 150px;
   }
 }
+
+@media screen and (min-height: 1200px) {
+  .about__section--description {
+    padding: 30px;
+  }
+}

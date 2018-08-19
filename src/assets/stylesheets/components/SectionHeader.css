@@ -6,12 +6,21 @@
   display: none;
 }
 
-@media screen and (max-width: 720px) {
+@media screen and (max-width: 720px) , screen and (min-height: 1200px) {
   /* h1 */.section-header__title {
     display: block;
     font-weight: bold;
     font-size: 30px;
     padding: 30px;
     background-color: #474747;
+  }
+}
+
+@media screen and (min-width: 720px) {
+  /* h1 */.section-header__title {
+    margin-left: auto;
+    margin-right: auto;
+    padding: 30px;
+    width: 50%;
   }
 }

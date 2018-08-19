@@ -19,13 +19,9 @@
     "footer footer";
 }
 
-header {
-  grid-area: header;
-}
+header { grid-area: header; }
 
-section {
-  grid-area: main;
-}
+section { grid-area: main; }
 
 footer {
   grid-area: footer;

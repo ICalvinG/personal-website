@@ -24,7 +24,5 @@
 }
 
 @media screen and (min-height: 1200px) {
-  .skill__list-container {
-    min-height: 800px;
-  }
+  .skill__list-container { min-height: 800px; }
 }

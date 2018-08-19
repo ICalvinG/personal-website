@@ -90,6 +90,10 @@ const SkillList = () => (
         level={3}
       />
     </div>
+
+    <div className="skill__list-indicator">
+      *<i className="fas fa-code"></i> indicates skill level
+    </div>
   </section>
 );
 

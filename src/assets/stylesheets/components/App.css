@@ -29,26 +29,7 @@ footer {
   align-self: center;
 }
 
-@media screen and (min-height: 1200px) {
-  #app__wrapper {
-    display: grid;
-    grid-gap: 20px;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: repeat(8, minmax(100px, auto));
-    grid-auto-flow:dense;
-    grid-template-areas:
-      "header header"
-      "main main"
-      "main main"
-      "main main"
-      "main main"
-      "main main"
-      "reference reference"
-      "footer footer";
-  }
-}
-
-@media screen and (max-width: 720px) {
+@media screen and (max-width: 720px) , screen and (min-height: 1200px) {
   #app__wrapper {
     grid-template-rows: repeat(8, minmax(100px, auto));
     grid-template-areas:

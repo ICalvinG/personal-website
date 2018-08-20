@@ -3,12 +3,31 @@
 \*------------------------------------*/
 
 /* object */.resume__object {
-  min-width: 100%;
+  width: 100%;
   min-height: 100%;
 }
 
 @media screen and (max-width: 720px) {
   /* object */.resume__object {
     min-height: 580px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  /* object */.resume__object {
+    max-width: 400px;
+    min-height: 500px;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  /* object */.resume__object {
+    max-width: 300px;
+  }
+}
+
+@media screen and (max-width: 330px) {
+  /* object */.resume__object {
+    max-width: 260px;
   }
 }

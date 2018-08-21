@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
 
 // Components
 import MobileNavigation from './MobileNavigation.js';
@@ -39,7 +40,9 @@ class Header extends Component {
           onClick={this.toggleMenu}
         ></i>
 
-        <h3 className="header__navigation-initials">CCI</h3>
+      <h3 className="header__navigation-initials">
+        <Link to="/">CCI</Link>
+      </h3>
 
         { this.state.toggleMenu &&
           <div ref={(element) => {

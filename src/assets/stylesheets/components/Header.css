@@ -43,8 +43,6 @@
     left: 0;
     width: calc(100% + 30px);
     height: calc(.001% + 10px);
-    margin-left: -30px;
-    margin-top: -20px;
     padding: 20px;
     font-size: 20px;
     background-color: #c0c0c0;
